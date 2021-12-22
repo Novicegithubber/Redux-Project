@@ -19,7 +19,7 @@ function App() {
     return all;
   });
 
-  const dispatch = useDispatch();``
+  const dispatch = useDispatch();
 
   const filterAll = (filter) => {
     dispatch(setFilter(filter));
